@@ -221,7 +221,12 @@ if __name__ == '__main__':
     ret, reason = main(issue, issue_author, repo_owner)
 
     if ret == False:
-        sys.exit(reason)        game.headers['Site'] = 'https://github.com/' + os.environ['GITHUB_REPOSITORY']
+        sys.exit(reason)
+
+    game.headers['Site'] = 'https://github.com/' + os.environ['GITHUB_REPOSITORY']
+
+    issue.edit(state='closed')
+    if os.path.exists('games/current.pgn') and issue_author != repo_owner:
 
         issue.edit(state='closed')
         if os.path.exists('games/current.pgn') and issue_author != repo_owner:
