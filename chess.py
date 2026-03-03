@@ -227,6 +227,7 @@ if __name__ == '__main__':
 
     issue.edit(state='closed')
     if os.path.exists('games/current.pgn') and issue_author != repo_owner:
+        pass
 
         issue.edit(state='closed')
         if os.path.exists('games/current.pgn') and issue_author != repo_owner:
