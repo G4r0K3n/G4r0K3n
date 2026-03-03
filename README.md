@@ -60,15 +60,10 @@
 <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=16&pause=999999&color=00FF41&background=00000000&center=true&vCenter=true&width=500&lines=%E2%99%9F+PARTIDA+EN+CURSO+%E2%80%94+%C2%BFTE+ATREVES+A+JUGAR%3F" alt="chess title">
 </h3>
 
-<p align="center">
-<a href="https://github.com/G4r0k3n/G4r0k3n/issues/new?title=chess%3A+move&body=Escribe+tu+movimiento+%28ej%3A+e2e4%29">
 <img src="https://chess-readme.vercel.app/api/chess?username=G4r0k3n" alt="chess board" width="380">
-</a>
 
-<p align="center">
-<b>¿Cómo jugar?</b><br>
-↳ Abre un <a href="https://github.com/G4r0k3n/G4r0k3n/issues/new?title=chess%3A+move"><b>Issue</b></a> &nbsp;|&nbsp; Título: <code>chess: move</code> &nbsp;|&nbsp; Escribe tu movimiento: <code>e2e4</code>
-
+<!-- BEGIN CHESS BOARD -->
+<!-- END CHESS BOARD -->
 <!-- ══════════════════════════════════════════════════════ -->
 <!--                ANIMATED DIVIDER                       -->
 <!-- ══════════════════════════════════════════════════════ -->
